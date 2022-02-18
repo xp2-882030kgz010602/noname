@@ -1,0 +1,124 @@
+<link href="./main.css" rel="stylesheet" type="text/css">
+<div style="display:inline-flex">
+Notes:<br>
+The "Load from JSON" button loads everything, but only the period, width, and rule are displayed. The tree from a JSON input cannot be converted into the format used in a plaintext input.<br>
+The app will automatically pause when it finds a spaceship, since unlike the console versions of this app, there is nothing that one can do to redirect a potential flood of spaceships to a file.<br>
+Some browsers do not log memory usage. In that case I simply cannot report on that.
+</div>
+<br>
+<div style="display:inline-flex">
+  <div>
+    <table>
+      <tr>
+        <td style="background-color:#ff7f00">
+          <input type="checkbox" id="B2c" name="B2c" value="B2c">
+          <label for="B2c">B2c</label>
+        </td>
+        <td style="background-color:#ff7f00">
+          <input type="checkbox" id="B2k" name="B2k" value="B2k">
+          <label for="B2k">B2k</label>
+        </td>
+        <td style="background-color:#ff7f00">
+          <input type="checkbox" id="B2n" name="B2n" value="B2n">
+          <label for="B2n">B2n</label>
+        </td>
+        <td style="background-color:#ffbf00">
+          <input type="checkbox" id="B3c" name="B3c" value="B3c">
+          <label for="B3c">B3c</label>
+        </td>
+        <td style="background-color:#7fff00">
+          <input type="checkbox" id="B3i" name="B3i" value="B3i">
+          <label for="B3i">B3i</label>
+        </td>
+        <td style="background-color:#ffbf00">
+          <input type="checkbox" id="B3n" name="B3n" value="B3n">
+          <label for="B3n">B3n</label>
+        </td>
+        <td style="background-color:#7fff00">
+          <input type="checkbox" id="B3q" name="B3q" value="B3q">
+          <label for="B3q">B3q</label>
+        </td>
+        <td style="background-color:#ffbf00">
+          <input type="checkbox" id="B3r" name="B3r" value="B3r">
+          <label for="B3r">B3r</label>
+        </td>
+        <td style="background-color:#7fff00">
+          <input type="checkbox" id="B3y" name="B3y" value="B3y">
+          <label for="B3y">B3y</label>
+        </td>
+      </tr>
+      <tr>
+        <td style="background-color:#00ff7f">
+          <input type="checkbox" id="B4c" name="B4c" value="B4c">
+          <label for="B4c">B4c</label>
+        </td>
+        <td style="background-color:#00ffff">
+          <input type="checkbox" id="B4i" name="B4i" value="B4i">
+          <label for="B4i">B4i</label>
+        </td>
+        <td style="background-color:#00ff7f">
+          <input type="checkbox" id="B4n" name="B4n" value="B4n">
+          <label for="B4n">B4n</label>
+        </td>
+        <td style="background-color:#00ffff">
+          <input type="checkbox" id="B4t" name="B4t" value="B4t">
+          <label for="B4t">B4t</label>
+        </td>
+        <td style="background-color:#00ff7f">
+          <input type="checkbox" id="B4y" name="B4y" value="B4y">
+          <label for="B4y">B4y</label>
+        </td>
+        <td style="background-color:#00ffff">
+          <input type="checkbox" id="B4z" name="B4z" value="B4z">
+          <label for="B4z">B4z</label>
+        </td>
+        <td style="background-color:#00bfff">
+          <input type="checkbox" id="B5e" name="B5e" value="B5e">
+          <label for="B5e">B5e</label>
+        </td>
+        <td style="background-color:#00bfff">
+          <input type="checkbox" id="B5r" name="B5r" value="B5r">
+          <label for="B5r">B5r</label>
+        </td>
+        <td style="background-color:#bf00ff">
+          <input type="checkbox" id="B6i" name="B6i" value="B6i">
+          <label for="B6i">B6i</label>
+        </td>
+      </tr>
+    </table>
+  </div>
+  <div>
+Period: <input type="text" id="p" name="p" value="1"><br>
+Width: &nbsp;<input type="text" id="w" name="w" value="1">
+  </div>
+  <div>
+<input type="file" id="upload" style="display:none">
+<a href="#" id="uploadbutton">Load from device</a><br>
+Save <a href="#" id="downloadtxt">input</a> or <a href="#" id="downloadjson">JSON</a>
+  </div>
+</div>
+<br>
+<div style="display:inline-flex;">
+  <div>
+    <a href="#" id="load">Load</a>
+    <br>
+    <textarea id="input" wrap="off" rows=4 cols=18>
+1
+1
+000000000000000000
+.</textarea>
+  </div>
+  <div>
+    <a href="#" id="clear">Clear</a>
+    <br>
+    <textarea id="console" wrap="off" rows=4 cols=22></textarea>
+  </div>
+  <div>
+    <a href="#" id="search">Search</a>
+    <br>
+    <textarea id="output" wrap="off" rows=4 cols=7></textarea>
+  </div>
+</div>
+<script src="./stripe.js"></script>
+<script src="./photonicsbrowserstuff.js"></script>
+<script src="./photonics.js"></script>
