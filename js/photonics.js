@@ -234,10 +234,9 @@ var search=function(){
   }
   while(true){
     var p1=r2p(panel,row);
-    if(!p1||inlist(p1,panels)||inlist(p1,solutions)){//Skip invalid rows and duplicate solutions
-      continue;
+    if(p1&&!inlist(p1,panels)&&!inlist(p1,solutions)){//Skip invalid rows and duplicate solutions
+      solutions.push(p1);
     }
-    solutions.push(p1);
     var i=0;//Step downwards from all 1s
     while(!row[i]&&i<w){
       row[i]=1;//Regroup
