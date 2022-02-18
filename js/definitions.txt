@@ -1,0 +1,43 @@
+Definitions and notes:
+
+Note: Since this program only looks for stripe-restricted photons, we only store half of the rows, as every other row is guaranteed to be blank.
+
+Definition: A panel is a list of p rows, representing the evolution of a single row over time. Every photon can be broken up intp panels. For example, consider this photon in B2a3n/S with p=2 and w=2:
+    ##
+##  ..
+..  .#
+#.
+If we broke it up into panels, it would look something like this:
+First panel:
+##
+##
+Second panel:
+#.
+.#
+Note that the first panel and a single entry from the second panel can uniquely determine the rest of the second panel.
+
+Definition: A tree is a list of lists of panels. The partial we are currently extending is comprised of the last panels in each list. We use the last panels so that we can pop efficiently. We use a tree instead of a list of partials to save space, as many partials may have the same frontends. As an example, suppose that we have these two partials stored in the tree right now, that we are searching at p=2 and w=3, and the rule is B2ak3n4y. We know that the first partial has no extensions, but we haven't searched the second partial yet.
+     .##
+.##  ...
+...  #.#
+##.
+
+     .##
+.##  ...
+...  .#.
+..#
+Here is a human-readable version of the tree:
+[
+  [
+    [.##
+     .##]
+  ],
+  [
+    [..#
+     .#.],
+    [##.
+     #.#]
+  ],
+  []
+]
+Note that keeping a list of partials would require us to store the first panel twice, which would take up more space.
