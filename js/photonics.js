@@ -233,6 +233,11 @@ var search=function(){
     row.push(1);//We move downwards.
   }
   while(true){
+    var p1=r2p(panel,row);
+    if(!p1||inlist(p1,panels)||inlist(p1,solutions)){//Skip invalid rows and duplicate solutions
+      continue;
+    }
+    solutions.push(p1);
     var i=0;//Step downwards from all 1s
     while(!row[i]&&i<w){
       row[i]=1;//Regroup
@@ -242,11 +247,6 @@ var search=function(){
       break;
     }
     row[i]=0;
-    var p1=r2p(panel,row);
-    if(!p1||inlist(p1,panels)||inlist(p1,solutions)){//Skip invalid rows and duplicate solutions
-      continue;
-    }
-    solutions.push(p1);
   }
   var last=solutions.pop();
   if(last){//If there are any solutions at all
