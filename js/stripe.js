@@ -41,7 +41,7 @@ var setrule=function(rin){//But not Len
 //B5r B6i 0   1
 var updaterow=function(nextrow,n,inv){
   nextrow.push(transitionstable[n]);//Look up the transition and then the transition state.
-  inv?inv[rawtable[n]]=1:null;
+  inv?inv[rawtable[n]]=1:null;//This is a clever way to update with an operator instead of an if loop
 };
 var iterate3=function(r0,r1,inv){//If inv is present, it tracks the transitions involved. This function requires that w>=3.
   //Checking for B2c going out of bounds is on you, not me.
