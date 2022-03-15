@@ -1,5 +1,10 @@
-x = 12, y = 31, rule = B3/S23
-bo$3o$ob2o5bo$b3o4b3o$b3o3bo2b2o$b2o3b3obo$8bob2o$4b2ob2o$4bo2b2o$3b2o
-2bo$2bo5bo$2bo5bo$b2o5bo$b2o5bo$2b4obo$3b7o$8bobo$8bobo$5bo$4bobo$4bo
-bo$5bo4$5b2o$5bobo$7bo$5bob2o$5bo2bo$6b2o!
+x = 96, y = 47, rule = B3/S23
+4b3o3b3o81bo$3bo2bo3bo2bo79b3o$6bo3bo75bo5b2obo$6bo3bo74b3o4b3o$6bo3b
+o73b2o2bo3b3o$85bob3o3b2o$4b3o3b3o71b2obo$5bo5bo75b2ob2o$5b7o75b2o2bo
+$4bo7bo75bo2b2o$4b10o73bo5bo$3bo9bo73bo5bo$6bo3b2obo73bo5b2o$3bo4bo78b
+o5b2o$5bobobo4bo73bob4o$7bo2bo75b7o$6bobo2b2o72bobo$8bo4bo71bobo$13b2o
+75bo$6b2obo2bo76bobo$6bo4bo77bobo$7bo3bo78bo$11bo$9bo$9b2o$7bo2bo78b2o
+$11b3o74bobo$6bo2bobo2bo73bo$7b2o2bo75b2obo$6b3o3bobo72bo2bo$6bob3o77b
+2o$6bo2bo$9b3o$9bob2o$12b2o$8bobob2o$9bo2b2o$8b2o2$6b2o$3o3bobo$o2bo3b
+4o$o6bob2o$o3bo2b3o$o3bobobo$o6bo$bobo!
 
