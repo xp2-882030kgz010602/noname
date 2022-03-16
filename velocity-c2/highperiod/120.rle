@@ -1,12 +1,9 @@
-x = 50, y = 63, rule = B3/S23
-2b3o$bo2bo4b3o$4bo3bo2bo$4bo3b2obo$4bob2o3bo$6b3o2bo$3bobobo$3bob2o$4b
-obobo2$3bobo2bo$3bob4o$9bo$3bo3bo2bo$2b2o3bo3b2o$b3o8bo$b3o5bo2bo$b3o
-5b2o$2b2o6bo$8bob2o$7b2o3bo$7b3o2b2o$2b3o4b2obo$2bo2bo2bobobo$2bo5b5o
-$2bo3bob2o2b2o$2bo3bo$2bo$3bobo2b3o$8bo2bo$8bo$6bo2bobo$5bob2o$4b2ob2o
-$4bo$3bob4o$3bobo3bo$2b2o3bob2o$5bobo2bo$4b2o3bobo$5bob3obo$5b2ob2o$3b
-2o4bo$2bob2o$b2obo$bobo$bo$b7o2b3o$2ob2o2b4o2bo$7bo5bo$4b3ob2o$31b3o$
-10b2o4b3o5b3o3bo2bo12b3o$15bo3bo3bo3bo5bo5bo5bo2bo$9b3o2bo3b2o2bo5bo4b
-o4b3o4bo2bo$8bo3bobob2o2b3o5bo4bo2bo3b2o3bo3bo$8bo3bobo2b2obobob3obob
-4ob2ob2obo2bo4bo$14bo3bob2o2bobob2o3b4o3b2o2bo$10b3obo3b2ob2obobob2o7b
-o10b2o$11b2obobo3bo3bobo5bo5bo2bo3b2o$13b7o6bo11bo$16b2o2bo2b2o$16bo4b
-2o!
+x = 50, y = 42, rule = B3/S23
+3b3o3b3o$3bo2bobo2bo$3bo7bo$3bo7bo$3bo3b2obo$4bobo2$8b3o$8bo2bo$8bo$6b
+o2bobo$5bob2o$4b2ob2o$4bo$3bob4o$3bobo3bo$2b2o3bob2o$5bobo2bo$4b2o3bob
+o$5bob3obo$5b2ob2o$3b2o4bo$2bob2o$b2obo$bobo$bo$b7o2b3o$2ob2o2b4o2bo$
+7bo5bo$4b3ob2o$31b3o$10b2o4b3o5b3o3bo2bo12b3o$15bo3bo3bo3bo5bo5bo5bo2b
+o$9b3o2bo3b2o2bo5bo4bo4b3o4bo2bo$8bo3bobob2o2b3o5bo4bo2bo3b2o3bo3bo$8b
+o3bobo2b2obobob3obob4ob2ob2obo2bo4bo$14bo3bob2o2bobob2o3b4o3b2o2bo$10b
+3obo3b2ob2obobob2o7bo10b2o$11b2obobo3bo3bobo5bo5bo2bo3b2o$13b7o6bo11bo
+$16b2o2bo2b2o$16bo4b2o!
