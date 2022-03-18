@@ -1,4 +1,4 @@
-x = 819, y = 129, rule = B3/S23
+x = 819, y = 139, rule = B3/S23
 35b3o3b3o8b3o3b3o8b3o3b3o8b3o3b3o39bo5bo13bo5bo11bo19bo6b3o17bo33bo6b
 o14b3o27bo23bo5bo33bo5bo26bo6bo12b3o26bo31bo6bo52b3o41b3o28b3o4b3o14b
 3o3b3o3b3o3b3o20b3o3b3o3b3o3b3o25b3o71bo$35bo2bobo2bo8bo2bobo2bo8bo2b
@@ -241,7 +241,9 @@ o2bo21bobo20b2obo15bo5b2o$23b2o34b2obob2o26b2o7bo41b2o7b2obobob2o7b2o
 5b2o$52b3o3bo7bo3b3o58b3o11b3ob3o9b3o34b2o4bo$52bo7bo3bo7bo61bo2bo4b2o
 3bobo3bo9bo37bo$51b3ob2o4bobo4b2ob3o57b3ob2ob2o9bobo$54bo7bo7bo60b2ob
 obo2bo6b2obo13b2o$50bo6bo3bobo3bo6bo61b2obo9bo$50bo7b4ob4o7bo58bo4bo4b
-3o$59bo5bo72bo3bo4bo$52bo19bo60bo8bo2bo$56b2o9b2o74b3o$59b2o3b2o71bo$
-56b2ob2o3b2ob2o69b2o9b3o$139bo8bo2bo$151bo$147bo3bo$142b2o7bo$142b3o3b
-obo!
+3o$59bo5bo72bo3bo4bo$b3o21b3o24bo19bo60bo8bo2bo$o2bo21bo2bo27b2o9b2o74b
+3o$3bo5bo9bo5bo33b2o3b2o71bo$3bo4b3o7b3o4bo30b2ob2o3b2ob2o69b2o9b3o$o
+bo4bo2b2o5b2o2bo4bobo110bo8bo2bo$7b2o2bo5bo2b2o129bo$5bo3bobo5bobo3bo
+123bo3bo$5bo3bob2o3b2obo3bo118b2o7bo$142b3o3bobo$8b2ob2o3b2ob2o$13bob
+o$10b2obobob2o2$12bo3bo$12bo3bo$12bo3bo2$12bo3bo$12bo3bo!
 
