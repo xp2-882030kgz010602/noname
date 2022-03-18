@@ -1,4 +1,6 @@
-x = 18, y = 7, rule = B3/S23
-8b3o3b3o$2b3o2bo2bo3bo2bo$bo2bo5bo3bo$4bo5bo3bo$o3bo4bo5bobo$4bo3bo$b
-obo!
+x = 84, y = 17, rule = B3/S23
+8b3o3b3o50b3o10b3o$2b3o2bo2bo3bo2bo49bo2bo3bo5bo2bo$bo2bo5bo3bo52bob2o
+2b3o4bo$4bo5bo3bo44b3o8bobo2b2o3bo$o3bo4bo5bobo41bo2bo4bo3bo2bobo4bob
+o$4bo3bo50bo6bobo8b2o$bobo55bo3bobo5b2o4bo$59bo3bo2bobo$59bo7bo$60bob
+o$77bo$76b3o$76bob2o$77b3o$77b3o$77b3o$77b2o!
 
