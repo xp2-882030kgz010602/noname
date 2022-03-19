@@ -1,4 +1,4 @@
-#C It is rare for a P4 component to support a P2 component, instead of the other way around. Here are a few ways in which it can happen.
+#C It is rare for a P4 component to support a P2 component in a relatively "small" way, instead of the other way around. Here are a few ways in which it can happen.
 x = 140, y = 29, rule = B3/S23
 8b3o10b3o5b3o50b3o20bo5bo11b3o10b3o$8bo2bo9bo2bo3bo2bo30b3o16bo3bo18b
 3o3b3o10bo2bo3bo5bo2bo$8bo2bo9bo9bo29bo3bo14bo4b2o16bo2b2ob2o2bo9bob2o
