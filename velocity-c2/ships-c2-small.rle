@@ -1,3 +1,5 @@
+#C Small ships, but most of these are slightly less small than the ones in Sokwe's collection.
+#C The overall goal of this is to keep track of ships that aren't mostly giant blobs of space dust.
 x = 842, y = 241, rule = B3/S23
 obobo3bobobo7bobobo3bobobo7bobobo3bobobo7bo3bo3bobobo7bo3bo3bobobo7bo
 3bo3bobobo7bo3bo3bobobo17bobobo3bobobo7bobobo3bobobo7bobobo3bobobo17bo
@@ -229,12 +231,10 @@ $423bo5bo80bo2b2o5b3o37bo43b5o$422bo4bo91b2o2bo35b2obo43b2obo$423bobob
 o82b2o2b4o41bo2bo46b2o$424bobobo85b3ob2o2b2o34bo2bo47b2o$429bo86b4o$
 422b2o90bo45bo$422bo5bo90bo32b3o4b3o$427bo91b2o31bo2bo$424b2o126bo$
 511b3o3bob2o31bo6b3o$511bo2bob2obob2o30bobo3b3o$511bob2ob2o5bo32b3obo$
-522bo33b2o$513bo6bo$512bo$512bo4bo$512bo$512bo$422bo89bo39b3o$421b3o
-88bo38bo2bo6b3o$421bob2o14b3o71bobo38bo5bo2bo$422b3o13bo2bo112bo8bo$
-422b2o7b3o7bo109bobo9bo$431bo2bo2bo3bo118bobo$425bo5bo5bo3bo113b4o$
-424bob2o2bo4bo5bo113b2obo$423b2ob2o2b2o2b2o2bobo114bo$423b2o5b2o2bo
-125b3o$424b2o127bo6bo2bo$424b3o5b3o117b3o5bo$425b2o5bo118bo3bo4bo$555b
-o5bobo$550bo6bo$551b8o$559bob3o$557b4o2bo$559bo3bo$559bo3bo$429b3o131b
-o$421b3o5bo2bo127bobo$421bo2bo4bo$421bo7bo$421bo8bobo$422bo2bo$424bob
-2o$422b3obo$423bobo$423bobo$424bo5b3o$424b2o3bo2bo$432bo$425bo6bo$424b
-ob2obobo$422bobob2o$421b2ob4o$421b2o$421b2o$423bo$423bo!
+522bo33b2o$513bo6bo$512bo$512bo4bo$512bo$512bo$422bo89bo$421b3o88bo$
+421bob2o14b3o71bobo$422b3o13bo2bo$422b2o7b3o7bo$431bo2bo2bo3bo$425bo5b
+o5bo3bo$424bob2o2bo4bo5bo$423b2ob2o2b2o2b2o2bobo$423b2o5b2o2bo$424b2o$
+424b3o5b3o$425b2o5bo8$429b3o$421b3o5bo2bo$421bo2bo4bo$421bo7bo$421bo8b
+obo$422bo2bo$424bob2o$422b3obo$423bobo$423bobo$424bo5b3o$424b2o3bo2bo$
+432bo$425bo6bo$424bob2obobo$422bobob2o$421b2ob4o$421b2o$421b2o$423bo$
+423bo!
