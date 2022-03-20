@@ -1,5 +1,18 @@
-x = 25, y = 17, rule = B3/S23
-8b3o10b3o$8bo2bo3bo5bo2bo$8bob2o2b3o4bo$3o8bobo2b2o3bo$o2bo4bo3bo2bob
-o4bobo$o6bobo8b2o$o3bobo5b2o4bo$o3bo2bobo$o7bo$bobo2$19bo$18b3o$17b2o
-bo$17b3o$17b3o$18b2o!
+x = 197, y = 1135, rule = B3/S23
+108b2o$108b2o37$8b3o10b3o155bo$8bo2bo3bo5bo2bo153b3o4b3o$8bob2o2b3o4b
+o156bob2o2bo2bo$3o8bobo2b2o3bo157b3o5bo$o2bo4bo3bo2bobo4bobo154b2o2bo
+3bo$o6bobo8b2o167bo$o3bobo5b2o4bo164bo3bo$o3bo2bobo172b2ob5o$o7bo172b
+2o$bobo177b2o3bobo$182bo3bo$19bo164bo$18b3o162bo$17b2obo160b2obo4b3o$
+17b3o160bob4o2bo2bo$17b3o159b2o10bo$18b2o160bo2bob2o4bo$180bo4bo4bo$180b
+o4b4o$180bo4b2o$181b3o2b2o$186b2obo$181b2o2bo4bo$181bob3o3bo$183bobo4b
+o$182b2obo3bo$184b2o3bo$186b3o$182b2o2b3o$184bo$182b5obobo$189b3o$182b
+3o3bo$181bo3b4o$181b5o2bo$181b2o4b2o$184b2o3b3o$178b3o4bo4bo$178b3o2b
+o$180bo2bobo$181bo3bo$180b2obo5bo$180bo3bo3b3o$179b6o3bob2o$178bo10bo
+bo$178bobob2o2bo2bo2bo$177b2o2bobob3obobo$178bo2b2o2bobobo$177b2obo6b
+ob2o$178bo2bob2o2bobo$177b2o3b4obob2o$178b2o2bo2b4o$177b2o2b3o$179b2o
+6b3o$179b2o7b3o$188bobo$190bo$184b3o$183bo2bo2bobo$186bo3b2o$186bo4b2o
+$186bo2bo$188b2o$184b3o4b2o2$184bo$183bo5bo$183bo3b4o$181b2o2bo4bo$180b
+2o7bobo$179b2o$181b4o2b2obo$181b2ob3o3bo$181b2o2bo5bo$189bobo$187b2o2b
+2o$184bobo3b3o$184b7o$184b6o$188bo6bo$194b3o$193b2obo$193b3o$193b3o$193b
+3o$194b2o1007$134bo$133b3o$133bob2o$134b3o$134b2o!
 
