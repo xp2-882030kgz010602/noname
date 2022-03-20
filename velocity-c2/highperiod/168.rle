@@ -1,6 +1,4 @@
-x = 77, y = 19, rule = B3/S23
-b3o10b3o$o2bo5bo3bo2bo43b3o10b3o$3bo4b3o2b2obo43bo2bo3bo5bo2bo$3bo3b2o
-2bobo8b3o35bob2o2b3o4bo$obo4bobo2bo3bo4bo2bo27b3o8bobo2b2o3bo$5b2o8bob
-o6bo27bo2bo4bo3bo2bobo4bobo$6bo4b2o5bobo3bo27bo6bobo8b2o$15bobo2bo3bo
-27bo3bobo5b2o4bo$16bo7bo27bo3bo2bobo$21bobo28bo7bo$53bobo2$50bo$49b3o$
-24b3o22bob2o$24bo2bo22b3o$24bo25b3o$24bo25b2o$25bobo!
+x = 28, y = 17, rule = B3/S23
+b3o10b3o$o2bo5bo3bo2bo$3bo4b3o2b2obo$3bo3b2o2bobo8b3o$obo4bobo2bo3bo4b
+o2bo$5b2o8bobo6bo$6bo4b2o5bobo3bo$15bobo2bo3bo$16bo7bo$21bobo2$26bo$
+25b3o$24b2obo$24b3o$24b3o$25b2o!
