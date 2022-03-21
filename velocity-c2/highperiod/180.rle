@@ -1,6 +1,7 @@
-x = 88, y = 19, rule = B3/S23
-11b3o10b3o34b3o10b3o$11bo2bo3bo5bo2bo32bo2bo5bo3bo2bo$11bob2o2b3o4bo
-38bo4b3o2b2obo$3b3o8bobo2b2o3bo38bo3b2o2bobo8b3o$3bo2bo4bo3bo2bobo4bob
-o32bobo4bobo2bo3bo4bo2bo$3bo6bobo8b2o42b2o8bobo6bo$3bo3bobo5b2o4bo44bo
-4b2o5bobo3bo$3bo3bo2bobo62bobo2bo3bo$3bo7bo64bo7bo$4bobo74bobo3$85b3o$
-3o81bo2bo$o2bo83bo$o82bo3bo$o3bo78bo3bo$o86bo$bobo80bobo!
+x = 96, y = 19, rule = B3/S23
+11b3o10b3o52b3o10b3o$11bo2bo3bo5bo2bo51bo2bo3bo5bo2bo$11bob2o2b3o4bo54b
+ob2o2b3o4bo$3b3o8bobo2b2o3bo46b3o8bobo2b2o3bo$3bo2bo4bo3bo2bobo4bobo43b
+o2bo4bo3bo2bobo4bobo$3bo6bobo8b2o48bo6bobo8b2o$3bo3bobo5b2o4bo49bo3bo
+bo5b2o4bo$3bo3bo2bobo58bo3bo2bobo$3bo7bo59bo7bo$4bobo65bobo3$3o$o2bo64b
+3o$o67bo2bo$o3bo63bo$o3bo63bo3bo$o67bo$bobo65bobo!
+
