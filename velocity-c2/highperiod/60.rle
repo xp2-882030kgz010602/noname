@@ -1,9 +1,10 @@
-x = 106, y = 21, rule = B3/S23
-8b3o10b3o65b3o10b3o$8bo2bo3bo5bo2bo4b3o10b3o44bo2bo3bo5bo2bo$8bob2o2b
-3o4bo6bo2bo5bo3bo2bo44bob2o2b3o4bo$3o8bobo2b2o3bo9bo4b3o2b2obo36b3o8bo
-bo2b2o3bo$o2bo4bo3bo2bobo4bobo6bo3b2o2bobo8b3o28bo2bo4bo3bo2bobo4bobo$
-o6bobo8b2o8bobo4bobo2bo3bo4bo2bo28bo6bobo8b2o$o3bobo5b2o4bo14b2o8bobo
-6bo28bo3bobo5b2o4bo$o3bo2bobo24bo4b2o5bobo3bo28bo3bo2bobo$o7bo34bobo2b
-o3bo28bo7bo$bobo40bo7bo29bobo$49bobo$18b3o76b3o$18bo2bo75bo2bo$18bo78b
-o$18bo3bo74bo$18bo3bo9b3o63bobo$18bo12bo2bo$19bobo12bo$30bo3bo$34bo$
-31bobo!
+x = 102, y = 26, rule = B3/S23
+8b3o10b3o31b3o10b3o14b3o10b3o$8bo2bo3bo5bo2bo30bo2bo3bo5bo2bo13bo2bo3b
+o5bo2bo$8bob2o2b3o4bo33bob2o2b3o4bo16bob2o2b3o4bo$3o8bobo2b2o3bo25b3o
+8bobo2b2o3bo8b3o8bobo2b2o3bo$o2bo4bo3bo2bobo4bobo22bo2bo4bo3bo2bobo4b
+obo5bo2bo4bo3bo2bobo4bobo$o6bobo8b2o27bo6bobo8b2o10bo6bobo8b2o$o3bobo
+5b2o4bo28bo3bobo5b2o4bo11bo3bobo5b2o4bo$o3bo2bobo37bo3bo2bobo20bo3bo2b
+obo$o7bo38bo7bo21bo7bo$bobo44bobo27bobo2$18b3o72b3o$18bo2bo71bo2bo$18b
+o74bo$18bo3bo42b3o25bo$18bo3bo42bo2bo25bobo$18bo46bo$19bobo43bo3bo$65b
+o$66bobo2$22bo46bo$21b3o44b3o$21bob2o43bob2o$22b3o44b3o$22b2o45b2o!
+
