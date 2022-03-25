@@ -1,1 +1,3 @@
-The periods given in this folder represent BASE periods, NOT TOTAL periods. I will use puffers where the base period equals the total period when possible, but sometimes one isn't available.
+The periods given in this folder represent BASE periods, NOT TOTAL periods.
+I will use puffers where the base period equals the total period when possible, but sometimes one isn't available.
+There unfortunately is some subjectivity to it though.
