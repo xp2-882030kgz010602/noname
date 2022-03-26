@@ -1,3 +1,5 @@
 The periods given in this folder represent BASE periods, NOT TOTAL periods.
 I will use puffers where the base period equals the total period when possible, but sometimes one isn't available.
+If one is available, I will show all puffers of that particular base period that also have the same total period (Example: P20 base AND total period).
+If one is not available, I will only show one puffer of that particular base period.
 There unfortunately is some subjectivity to it though.
