@@ -1,0 +1,11 @@
+x = 56, y = 47, rule = B3/S23
+10bo5bo18bo17bo$9b3o3b3o16b3o15b3o$9bob2ob2obo16bob2o14bob2o$10b3ob3o
+18b3o15b3o$10b2o3b2o18b2o16b2o2$13bo24bo4b3o4bo$12bobo22bob2o2bo2bo2b
+3o$11b2ob2o20b2ob2o2bo2b3o2bo$11bo2b2o20b2o6b2ob4o$10b2o2b2o21b2o5b3o
+2b2o$10b2o4bo20b3o4b2o$10bob2o24b2o10bo$9bob3obo$9b2o3bo$8bo2bo$8b2o$
+8bo$11bo$10b3o$10bob2o$11b3o$11b2o5$30bo17bo$29b3o15b3o$29bob2o14bob2o
+$30b3o15b3o$30b2o16b2o2$16bo16bo4b3o4bo$9bo5b3o14bob2o2bo2bo2b3o$8b3o
+4bob2o12b2ob2o2bo2b3o2bo$7b2obo5b3o12b2o6b2ob4o$7bo8b2o14b2o5b3o2b2o$
+7bo2bobo3b2o14b3o4b3o$6b2obob3ob3o15b2o4b2o4bo$9bo3bo3bo$2bo3bobo3bo2b
+o$b3o3bo$2obo$2b2o2bo$2b2o$3b2o!
+
