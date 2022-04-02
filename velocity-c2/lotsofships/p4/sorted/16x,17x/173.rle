@@ -1,8 +1,14 @@
-x = 16, y = 47, rule = B3/S23
-7bo5bo$6b3o3b3o$6bob2ob2obo$7b3ob3o$b3o3b3o2b2o$o2bo3b3o$o3bo5bo$4bo2b
-o2bo$7bo3bo$2b3o3b3o$9b2o$10bo$10bo$2b3o4bo$2bo2bo2b3o$2bo5bobobo$2bo
-5bo3b2o$2bo4b2o3b2o$2bo7bob2o$3bo3b4obo$5b2o$7bob2o3bo$10bobobo$11b2o
-bo$11b2o$9bo2b2o$8bo2b2o$9bo$12bobo$9b3o$8bob2ob2o$7bo$4b6o$4bo3b2ob3o
-$3bo2b5o3bo$3b3obo$4bobo$7bo2bob2o$6b2ob2obo$7bo2b5o$4bob5o2bobo$4b2o
-bobo3bobo$2bo$b3o5bo$2obo5bo$3o$b2o!
+x = 40, y = 57, rule = B3/S23
+28bo$7bo5bo13b3o4bo$6b3o3b3o11b2obo3b3o$6bob2ob2obo11b3o3b2obo$7b3ob3o
+13b2o3b3o$b3o3b3o2b2o13b2o3b3o$o2bo3b3o18b2o2b3o$o3bo5bo22b2o$4bo2bo2b
+o17b2o$7bo3bo15bo$2b3o3b3o16bob2o$9b2o17b3o$10bo16bob2o$10bo17bo4b3o$
+2b3o4bo17b3o2bo2bo$2bo2bo2b3o18b2ob2o2bo$2bo5bobobo16b2o3b3o$2bo5bo3b
+2o16b4obo$2bo4b2o3b2o17b2o$2bo7bob2o$3bo3b4obo21b5o$5b2o29b3o$7bob2o3b
+o19b2o$10bobobo19bo$11b2obo18b2o2b3o$11b2o23bo$9bo2b2o18bo2bobobo$8bo
+2b2o22b3obo$9bo19bo5bob2o$12bobo13b3obob4o$9b3o15b2o6bo$8bob2ob2o12bo
+4bo3b2o$7bo21bo2bo4bo$4b6o17bo4bo$4bo3b2ob3o14bo2bobob2obo$3bo2b5o3bo
+18b5o$3b3obo19b2o2b2ob3o$4bobo19bo5bo$7bo2bob2o14b2o2bo$6b2ob2obo16bo
+2bo$7bo2b5o16bo$4bob5o2bobo$4b2obobo3bobo15b2o2b3o$2bo27bo3bo2bo$b3o5b
+o27bo$2obo5bo19bo7bo$3o25b2ob2o4bo$b2o25b2ob2o4bo$32bo3bo2$33b2o$32b3o
+$31b2o2bo$33b4o$33b2obo$33b3o$34b2o!
 
