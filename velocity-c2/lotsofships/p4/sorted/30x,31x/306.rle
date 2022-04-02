@@ -1,0 +1,23 @@
+x = 36, y = 99, rule = B3/S23
+4b3o3b3o$4bo2bobo2bo11b3o4b3o$4bo7bo11bo2bo2bo2bo$4bo7bo10bo3bo5bo$4b
+o4bobo13bobobo3bo$5bo2bo16bo3bo3bo$5bo2bo16b2o6bo$8b2o16b2o2bobo$5bo3b
+o16b2o$6bo2bo15bo$6bo2bo19b3o$8b2o19bo2bo$7b2o17b2o4bo$6bo18b2o5bo$6b
+ob2o15b3obobo$5b2obob2o14b3ob2o$6bo20b5o$5b3o4bo13bo$8bo16b2o$4b5ob2o
+13b2o3bo$4b2o3bo19b2o$7b3obo13b4o2bo$5b2obobob2o11b3ob4o$6bobo21b4o$6b
+obo22bob2o$5b2obo2bo19b2o2bo$3bo2bobobo19bobo$b2obobo3b2o17b2o2bo$o3b
+ob2o20bo2b2o$o4bo21b3obo$3b2o3b2o17b2o$b4o2b2o17bo2bo$bo2bob5o13b2o3b
+o$3b2o6bo$6b3obo13bob2ob2o$8b2o2bo18bo$3b3o6bo13bo3b3o$12bo13bob3ob2o
+$3b3o4bo15bo4b2o$3bobo20b3o2bo$3b3o21b3obo$3b2o2bo18b3ob2o$5b4o16bo3b
+o$8bo15b2o$3b2ob2obo13b3o5bo$3b2obobobo12bo$7b5o11bo2bo$8bo3bo9b2obob
+2o$9b2obo12bo2bo$7bo2bo14b2o3bo$9bo18bobo$4bo4bo16bo$3b3o3bo14bo2b3o$
+2b2o21b3o4bo$2bo2b2o2bo17bo3b3o$2bobobobo18bo3bob2o$b2obo27b3o$4bo21b
+3o3b3o$4bo19bobo5b2o$3b2ob2o16bobo$2bo3b2o16bobo$b2o3bo$6bo19bo$o$2b2o
+20b2o$3bo20b2o$4bo18bob2o$bob3o17bob2o$2bo3bo25bo$2bob2obo19bo3b3o$b2o
+b2ob2o16bobo3bob2o$b2o4b3o15bo8bo$4b3o2bo16b2obobo2bo$4bo4b2o17b3obob
+2o$6b2o18bo5bobo$7bobo17b2o$4bobo2bo17b2o4bo$4bob2o$3bo21b5obo$3b4o18b
+obob2o$2bo5bo15bo$bob7o13bob3o$o2b3o2b3o12bo3b2o2bo$bob2o3bo13b2ob2ob
+2ob2o$b3o5b2o14bobobo2bo$4bo17b3o3b3ob2o$4bo17bo6bo2b2o$bo3bo17bo2bob
+o$3bo6bo15bob4o2bo$2b2o5b3o22bo$2b2o5bob2o14b3ob2obo$2b2o2bo3b3o15b2o
+2bo$2b3o5b3o13b4o2bo$6bo3b3o13b3o2b3o$4bobo3b2o13bo5b3o$24bobo4b2o$23b
+2obo4b2o$30b2o$23b2o!
+
