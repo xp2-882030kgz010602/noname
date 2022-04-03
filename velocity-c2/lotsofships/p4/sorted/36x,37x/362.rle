@@ -1,0 +1,25 @@
+x = 38, y = 99, rule = B3/S23
+2bo5bo$b3o3b3o$2obo3bob2o23bo$3o5b3o14b3o5b3o$b2o5b2o14bo2bo4b2obo$24b
+o2bo4b3o$5bo17b2obobo3b3o$4b3o17bo2bob2ob3o$3bo3bo15b2obob3o2b2o$3bo3b
+o18bobobo$2bo5bo16bo$22b4obo$3bo3bo17bo4b3o$4b3o18bo4bo2bo$8bo14bo6bo
+$7b3o12b2o3bo2bo3bo$7bob2o11b2o3bo2bo$10b2o11bo3bo3bobo$10bo15b2o$10b
+2o13b3o6bo$6bobobob2o10b2obo5b3o$4b2obo5bo9bob2obo4bob2o$3bo3bobobo11b
+o10b3o$b2o2bobobobob2o8bo4bobo3b3o$bo3bobobobo10b2o10b3o$b3obobobo3bo
+20b2o$2o3bobo15b2o$7bob3o13bo$12b2o9b2obo$6bo2b3o2bo11b2o$11bo2bo8b2o
+2bo$8b2o4b2o7b2obob2o$13b3o8bobobo$26bobob2o$14bo13bobo$6b3o3bobo10b2o
+bobob2o$6bo2bo2bobo13bobobo$6bo23bobob2o$6bo5b3o10b2obobo3b2o$6bo3bob
+3o12bo4b2obo$6bo3b3o18b2o2b2o$7b3o18b4obo$2bo4bobo19bo$b3o2b2o19bob2o
+bo$2obo2b2ob2o15b3o2bo$2b2o21bo2b2o3bo$2b2ob6o13b3o2bobob2o$9b2o14b2o
+3b2obo$bo3b3o23bo2bo$bobo5b2o13bobo3bob3o$3bo6bo13bobo2b2obo2bo$3bo4b
+ob2o12bo4b2obobobo$2bo9bo11b3o2b2ob2obo$b4ob3o4bo8b2ob4obo$b2o3b3o3bo
+13bo6bo$5b4o3bo13b2o2bo$7b5o14bo2b2o2bo$7b7o11b3o4b2o$2b3o7b3o9bo10bo
+$bo2bo4bob2o2bo8bob3o5b3o$4bo2b2obobo11bo4bo3b2obo$4bo8bo10bo4bo3b3o$
+bobo2bo3b3o16b2o3b2o$6bobo3b2o13bob3o$4bo3bo19bobo$4b2obo19bo$2bo4bob
+2o14b2o4bo$2bo$bo23bob2o4b3o$2ob2o28bo2bo$2o2bo19b4o5bo$3bobo16b2o3b3o
+3bo$ob4o19bo2bo2bo2bobo$ob3ob3o16b2o4bo$5bo2bo13b2o3b3o$6bo3b2o16b2o$
+7b3obo15bo2b2o$11bo13b3ob3o$8b2obo15bobo$8b3o16b2o6bo$2b3o4bo17b4o3b3o
+$2bo2bo3b2obo13b2ob2o3bob2o$bo6bo3bo22b3o$bobo25bo5b2o$2obob4ob3o13bo
+b2o$3bobo2b3o2b2o12b2ob3o$2b2ob3o3b4o$2b4obo6b2o14b3o$4b2o25b2o$7b5ob
+3o$14bo17b2o$7bo17bo3bo3b2o$12bobo9b3o4b2ob2o$8bo3b2o10bob2o2b3ob2o$7b
+3o15b3o6b2o$6b2obo15b3o2b2o$6b3o16b3o$6b3o16b2o$7b2o!
+
