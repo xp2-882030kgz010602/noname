@@ -1,0 +1,37 @@
+@RULE TapeLife120
+@TABLE
+n_states:4
+neighborhood:Moore
+symmetries:permute
+var a0={0,2,3}
+var a1=a0
+var a2=a1
+var a3=a2
+var a4=a3
+var b0={0,1,2,3}
+var b1=b0
+var b2=b1
+var b3=b2
+var b4=b3
+var b5=b4
+var b6=b5
+var b7=b6
+var b8=b7
+var c0={0,1}
+var c1=c0
+var c2=c1
+var c3=c2
+var c4=c3
+var c5=c4
+var c6=c5
+1,1,1,0,0,0,0,0,0,1
+1,1,1,1,0,0,0,0,0,1
+0,1,1,1,a0,a1,a2,a3,a4,1
+2,2,2,c0,c1,c2,c3,c4,c5,2
+2,2,2,2,2,b0,b1,b2,c0,2
+0,2,2,2,0,0,0,0,0,2
+0,3,3,3,0,0,0,0,0,3
+3,3,c0,c1,c2,c3,c4,c5,c6,3
+b0,3,3,3,3,c0,c1,c2,c3,3
+b0,b1,b2,b3,b4,b5,b6,b7,b8,0
+b0,b1,b2,b3,b4,b5,b6,b7,b8,0
