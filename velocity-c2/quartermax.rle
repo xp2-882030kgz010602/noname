@@ -1,4 +1,4 @@
-x = 108, y = 64, rule = B3/S23
+x = 108, y = 60, rule = B3/S23
 2bo$b3o5b3o12bo5bo$2obo4bo2bo5b3o3b3o3b3o$3o4b3obo4bo2bo3bob2ob2obo$3o
 2bo6bo3bo2bo4b3ob3o$b2o5bo4bo4b4o2b3o2b2o$7bo6bobobob2o2b3o$14bobob2o
 2bo2b2o39b3o$12b2o3bo2b2o2b3o5b3o24b3o4bo2bo$15b2o4b3o3b2o2bo2bo7b3o3b
@@ -21,8 +21,8 @@ b2o25bo2b2o4b2o4bo6bo2b2o4b2o$8b3o23b2o3bo2bob2obo2bo4bo4bo32bobo$8b6o
 o5bo5bo5b2o$27bobo5b2o23bo2bo26bo3bo$34b2o26bo4bo25bo$28b2o4b2ob2o22b
 2obobo4bo16bo3bo$27b2ob2o31bobo3b2obo14b2o3b6o$27b5o4bo26bob3o4bo14b2o
 3bob5o$28b3o31b2obo2bo3bob2o10b2o6b3ob2o$29bo31bo2bobo4b2o2bo8b3o3b2o
-5b2o$29b2o30b2obo2bo2bo2bo9bobob4o$30bo3bo29bo2b2o2bob2o3b2o3bo2b2o3bo
-$33b3o28bob2ob2obo4b6o6bob2o$33bob2o26b2o2bobo2bo4b4obob5ob2obo$34b3o
-25bo2b3obobo12bo4b2o2bo$34b3o25b2o4b2ob2o8b3o3bo4b2o$34b2o28b2o2bobo2b
-o13bo$64bob2o2bob2o16b2o$65b2obobobo$68bobobo$61bob3o3b2ob2o$61b2obo2b
-2o2bo$66b2obobo$67bob2o$65bobo$64bob2o$64bo$63b2o!
+5b2o$29b2o30b2obo2bo2bo2b2o8bobob4o$30bo3bo29bo2b2o2bo6b2o3bo2b2o3bo$
+33b3o28bob2ob2o6b6o6bob2o$33bob2o26b2o2bobo7b4obob5ob2obo$34b3o25bo2b
+3obobo12bo4b2o2bo$34b3o25b2o4b2ob3o7b3o3bo4b2o$34b2o28b2o2bobo3bo12bo$
+64bob2o2bob2o16b2o$65b2obobobo$68bobobo$63b3o3bobo$63bo2bob2o$64bobobo
+bo$65bo3b2o!
