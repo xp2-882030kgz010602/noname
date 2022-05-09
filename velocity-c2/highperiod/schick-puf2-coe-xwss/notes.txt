@@ -1,0 +1,3 @@
+This folder is for items composed entirely out of Schick engines, Puffer 2s, Coe ships, and XWSSes.
+I consider those engines to be the "big three" in terms of engineering, and I consider XWSSes to be the "big three" in terms of stabilizing things.
+I have decided to separate these out from items that use more exotic things.
