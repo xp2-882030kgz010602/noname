@@ -1,0 +1,65 @@
+A rule consists of a neighborhood table and a list of a functions.
+
+The neighborhood table lists the positions of the cells in the neighborhood relative to the cell that we're examining. For example, [[-1,-1],[-1,0],[-1,1],[0,-1],[0,0],[0,1],[1,-1],[1,0],[1,1]] would describe the R1 Moore neighborhood, including the cell itself.
+
+When Cobalt runs a pattern, it first finds the values of the neighborhoods for all relevant cells; the values are kept in a list format. The nth entry of the list is the state of the nth cell in the neighborhood. For example, with the neighborhood table above, the list for the center cell (marked with a comma) would be [0,0,1,1,0,1,0,1,1]:
+
+   +X
+   --->
+  |.#.
++Y|.,#
+  |###
+  V
+
+Next, we delve into the list of functions. Cobalt will always start at the function with index zero, calling it on the list. A function transforms a list into an output state, and has three layers.
+
+The first layer is a 2-dimensional lookup table of weights, which transforms the list into a sum. For example, suppose that my list is [1,2,0] and that my lookup table looks like this:
+        Index
+        0 1 2
+        -----
+      0|0 1 2
+State 1|1 2 0
+      2|2 0 1
+The list has an entry with index 0 and state 1, an entry with index 1 and state 2, and an entry with index 2 and state 0. So, the sum becomes 1+0+2=3.
+
+The second layer is a lot more complicated, so we will skip it for now, and look at the third layer. The third layer is simply a lookup table of "states" (see next paragraph), indexed by transitions. For example, with "totalistic" Life, this layer would map Bn to 0, except for B3, and it would also map Sn to 0, except for S2 and S3, assuming, of course, that the names of the transitions were truthful.
+
+However, since the third layer corresponds to degrees of freedom (see the additional note right above the examples), and since we might not want a transition to correspond to certain states, we keep another table listing states that each transition is allowed to map to. For example, if I only wanted 0 or 2 to be a resultant state for a certain transition, this second table would have [0,2] as its entry. This table is meant as a guide for transition selection in search programs and GUIs; it is not absolute. One example would be an alternating rule where the first subrule takes a 2-state pattern and turns it into some 3-state pattern, and where the second subrule takes a 3-state pattern and turns it into a 2-state pattern. The first subrule might act weirdly if fed state 2, so we would use [0,1] in the second table in the second subrule as a way to indicate not to select state 2 as a resultant state.
+
+The second layer maps sums to output states, but explaining where the state comes from is why I had to explain the third layer before the second layer.
+  Now, in some cases, a sum might be mapped directly to an output state. For example, in a "hardcoded" Life implementation without anything in the third layer, a sum of zero might simply mean state zero, no questions asked.
+  However, if this were the only way to map a sum to an output state, there would be no point in having the second layer! So, how else can we map sums to output states? The second way to do so would be to map a sum to a transition. For example, with "totalistic" Life, a sum of zero might be mapped to the transition B0. Afterwards, Cobalt would then look up the B0 transition in the third layer, and then get to the result of state zero. Note that you can map different sums to the same transitions, which might be useful in some cases.
+  There is a third way to map a sum to an output state, which is to map it to a different sum. For example, if I had a sum of 1, I could map it to the sum of 0. Then when Cobalt got the sum of 1, after looking up the sum of 1, it would then look up the sum of 0, and then return the result of that lookup. Note that the second layer is now feeding into itself.
+  Finally, there is one more way to map a sum to an output state: Call a function on a list of some other "things". These "things" can be transitions, sums, states, input indexes, and even other functions that are called on lists of "things". These functions are called by index. This really makes the second layer feed into itself, even more than with the third way.
+
+Details: For the first layer, Cobalt uses table[state][index], NOT table[index][state].
+
+For the output data in the second layer, Cobalt interprets numbers as states, and strings as transitions. To specify that you want Cobalt to look up/call a sum, input index, or a function, you need to use an array, where the first element indicates what type of thing you want to look up/call, and the second number is the actual sum, input index, or function index. If you're looking up a sum, use 5 for the first element. If you're looking up an input index, use 1. For a function, use 7. In the case that you're calling a function, you will need to add more entries to the array, where each entry is part of the input, in the order that you want.
+
+Additional note: The second layer is not designed to be edited by search programs; the third layer will be much more friendly. In essence, the transitions in the third layer have all the intended degrees of freedom to mutate, and the second layer dictates the method in which they are used to create the output state, while also keeping "direct" output states that might not be intended to be changed by a search program. These methods are also a lot harder to mess with via a search program than the transitions in the third layer.
+
+Examples:
+
+1. "Hardcoded" Life example:
+
+(See lifehardcoded.json)
+
+Here, the weight of -6 on the center cell cannot separate S6 from B0, S7 from B1, and S8 from B2, but it is enough to separate B3, S2, and S3, which have the sums of 3, -4, and -3. As no transitions are meant to be changed, everything is in the second layer, and there is no third layer. 
+
+2. "Totalistic" Life example:
+
+(See lifetotalistic.json)
+
+This time, all Bn and all Sn are in the third layer. They are our degrees of freedom and we can easily mutate them, and the second layer will deal with the consequences. Since our possible sums start at zero and are consecutive integers, it is convenient to use an array for the second layer, instead of an object.
+
+3. Symbiosis example:
+
+(See symbiosis.json)
+
+By weighting state 1 with 1 and 9 and state 2 with 100 and 900, we can tell when states 1 and 2 mix, which means no change; return the state at index 4 of the input, or [1,4]. We use bn,sn for state 1 transitions and Bn,Sn for state 2 transitions. As a symbiotic rule only behaves differently when states 1 and 2 mix, we only "allow" bn,sn to map to [0,1] and Bn,Sn to map to [0,2]. While there's nothing stopping us from modifying these entries to [0,1,2] or even ignoring them outright, letting a bn/sn map to 2 or a Bn/Sn to map to 1 would make the rule non-symbiotic. Note that this time, the "sums" entry is an object; this is more convenient for non-consecutive sets of possible sums, sets not starting at 0, and sets with negative/non-integer numbers.
+
+4. Hardcoded LeapLife example:
+
+(see leaplife.json)
+
+Observe that LeapLife doesn't care about the arrangement of edge cells; it only cares about the arrangement of corner cells. And even in those cases, it only cares in the B2c/B2n cases and S3iny/S3q cases. So in all the other cases, we simply return a hardcoded value. With the two "exceptional" cases, we instead call another function on the corners, which uses weights in a way that distinguish the possible corner arrangements: An odd sum means "B2c arrangement" and an even sum means "B2n arrangement". With this information, we can decide what to do next.
