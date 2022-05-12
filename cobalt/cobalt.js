@@ -14,18 +14,19 @@ var resolve=function(item,input,fns,i,relevant){
   //Ok, we're dealing with an indexed thing.
   var indextype=item[0];
   if(indextype===1){//Input index
-    return input[item[1]];
+    item=input[item[1]];
+    return resolve(item,input,fns,i,relevant);
   }
   if(indextype===5){//Sum index
     item=rule.sums[item[1]];
-    return resolve(item,input,fns,i);
+    return resolve(item,input,fns,i,relevant);
   }
   if(indextype===7){//Function index
     item=item.slice();//Prevent this from sticking to the rule
     for(var j=2;j<item.length;j++){
-      item[j]=resolve(item[j],input,fns,i);
+      item[j]=resolve(item[j],input,fns,i,relevant);
     }
-    return evalfn(item.slice(2),fns,item[1]);
+    return evalfn(item.slice(2),fns,item[1],relevant);
   }
 };
 var evalfn=function(input,fns,i,relevant){
